@@ -45,6 +45,9 @@ table {
 html{
     font-size: 62.5%;
 }
+body{
+    width: 100%;
+}
 h1{
     font-family: 'Chelsea Market', cursive;
 }
@@ -54,31 +57,55 @@ p, a{
 
 nav{
     display: inline-block;
-    width: 10rem;
 }
-.planVisit a{
+nav div.planVisit a{
     display: inline-block;
     background-color: #FF764E;
-    font-size: 2rem;
-    margin-left: 50%;
-    border-radius: 10px;
-    padding: 5% 10%;
+    font-size: 2.4rem;
+    margin-top: 11%;
+    margin-left: 94%;
+    border-radius: 25px;
+    padding: 10% 40%;
     text-align: center;
 }
 .learnPark a{
     display: inline-block;
     background-color: #5ED3EB;
+    font-size: 2.4rem;
+    margin-top: 11%;
+    margin-left: 95%;
+    margin-right: 95%;
+    border-radius: 25px;
+    padding: 10% 40%;
+    text-align: center;
 }
 .getInvolved a{
     display: inline-block;
     background-color: #FFCD69;
 }
 header img{
-    width: 10%;
-    height: 10%;
+    width: 19%;
+    height: 19%;
+    border-radius: 50%;
+    display: inline-block;
+}
+header h1{
+    display: inline-block;
+}
+header div p{
+    display: inline-block;
 }
 #describePark{
     background-color: #DDB9A3;
+}
+span.fireRestrict{
+    font-weight: bolder;
+}
+span.enterFee{
+    font-weight: bolder;
+}
+footer{
+    background-color: #F9E7DC;
 }
 .planVisitFoot a{
     display: inline-block;
