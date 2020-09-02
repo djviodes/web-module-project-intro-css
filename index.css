@@ -16,7 +16,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -40,4 +41,54 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+p, a{
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    display: inline-block;
+    width: 10rem;
+}
+.planVisit a{
+    display: inline-block;
+    background-color: #FF764E;
+    font-size: 2rem;
+    margin-left: 50%;
+    border-radius: 10px;
+    padding: 5% 10%;
+    text-align: center;
+}
+.learnPark a{
+    display: inline-block;
+    background-color: #5ED3EB;
+}
+.getInvolved a{
+    display: inline-block;
+    background-color: #FFCD69;
+}
+header img{
+    width: 10%;
+    height: 10%;
+}
+#describePark{
+    background-color: #DDB9A3;
+}
+.planVisitFoot a{
+    display: inline-block;
+    background-color: #FF764E;
+}
+.learnParkFoot a{
+    display: inline-block;
+    background-color: #5ED3EB;
+}
+.getInvolvedFoot a{
+    display: inline-block;
+    background-color: #FFCD69;
 }
