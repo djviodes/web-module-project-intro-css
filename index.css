@@ -13,85 +13,49 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
     text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+*{
+    box-sizing: border-box;
+    border: 1px solid grey;
 }
 html{
     font-size: 62.5%;
 }
 body{
-    max-width: 100%;
+    font-family: 'Roboto Mono', monospace; 
+    line-height: 1.5;
+    font-size: 1.6rem;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
 }
-p, a{
-    font-family: 'Roboto Mono', monospace;
-}
-
-nav{
+nav a{
     display: inline-block;
-    max-width: 100%;
-    max-height: 100%;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
 }
-.linksHeader{
-    display: inline-block;
-    max-width: 100%;
-}
-.linksHeader a.planVisit{
+.orange{
     background-color: #FF764E;
-    font-size: 2.4rem;
-    display: inline-block;
-    /* margin: 15% 0 0 25%; */
-    border-radius: 25px;
-    padding: 4% 5%;
-    text-align: center;
+    margin-left: 10%;
 }
-.linksHeader a.learnPark{
+.blue{
     background-color: #5ED3EB;
-    font-size: 2.4rem;
-    display: inline-block;
-    /* margin: -15% 0 0 110%; */
-    border-radius: 25px;
-    padding: 0 9%;
-    text-align: center;
+    margin: 0 24%;
 }
-.linksHeader a.getInvolved{
+.yellow{
     background-color: #FFCD69;
-    font-size: 2.4rem;
-    display: inline-block;
-    /* margin: -125% 25% 0 175%; */
-    border-radius: 25px;
-    padding: 2% 5%;
-    text-align: center;
+    margin-right: 10%;
 }
-header.logo{
+header .logo{
     display: inline-block;
 }
 header img{
@@ -99,7 +63,7 @@ header img{
     height: 19%;
     border-radius: 50%;
 }
-header.headerInfo{
+header .headerInfo{
     display: inline-block;
 }
 header div p{
@@ -108,21 +72,16 @@ header div p{
 #describePark{
     background-color: #DDB9A3;
 }
-p.bold{
+p .bold{
     font-weight: bold;
+}
+.heroImage{
+    background-image: url('assets/footer_img.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 footer{
     background-color: #F9E7DC;
-}
-.planVisitFoot a{
-    display: inline-block;
-    background-color: #FF764E;
-}
-.learnParkFoot a{
-    display: inline-block;
-    background-color: #5ED3EB;
-}
-.getInvolvedFoot a{
-    display: inline-block;
-    background-color: #FFCD69;
 }
